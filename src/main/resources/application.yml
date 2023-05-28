@@ -1,0 +1,9 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/studentdb
+    username: postgres
+    password: postgres
+    pool-size: 30
+
+server:
+  port: 8081

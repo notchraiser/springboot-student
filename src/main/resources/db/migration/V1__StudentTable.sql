@@ -1,0 +1,10 @@
+CREATE TABLE student(
+    id UUID NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    grade VARCHAR(10) NOT NULL,
+    section VARCHAR(10) NOT NULL,
+    address VARCHAR(100) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    fathername VARCHAR(100) NOT NULL,
+    mothername VARCHAR(100) NOT NULL
+)
